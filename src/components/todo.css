@@ -1,0 +1,61 @@
+.main-div {
+  width: 50%;
+  margin: 50px;
+}
+
+.child-div {
+ background-color: gainsboro;
+ padding: 2%;
+}
+
+.addItems {
+  color: #aaa;
+  font-size: 16px;
+}
+
+.input-element {
+  position: relative;
+}
+
+.addItems input {
+  width: 100%;
+  height: 42px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.addItems input {
+  text-indent: 1em;
+}
+
+.addItems .fa-plus {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+}
+
+.showItems {
+  background-color: cadetblue;
+  color: rgba(19, 5, 85, 0.842);
+  font-size: 16px;
+  margin: 20px;
+}
+.eachItems {
+  position: relative;
+  border: 1px solid #ebebeb;
+}
+.showItems h3 {
+  width: 250px;
+  height: 32px;
+  text-indent: 1em;
+}
+
+.showItems .fa-trash-alt {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+}
