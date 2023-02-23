@@ -4,8 +4,20 @@
 }
 
 .child-div {
- background-color: gainsboro;
- padding: 2%;
+  background-color: gainsboro;
+  padding: 2%;
+}
+
+.child-div .icon {
+  width: 100%;
+  float: left;
+  background: #33cccc;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.child-div .fa-list {
+  padding-right: 10px;
 }
 
 .addItems {
@@ -42,19 +54,23 @@
   color: rgba(19, 5, 85, 0.842);
   font-size: 16px;
   margin: 20px;
+  border-radius: 15px;
 }
 .eachItems {
   position: relative;
   border: 1px solid #ebebeb;
 }
 .showItems h3 {
-  width: 250px;
-  height: 32px;
+  width: 90%;
+  height: 30px;
   text-indent: 1em;
+  font-size: 15px;
 }
 
 .showItems .fa-trash-alt {
+  width: 10%;
   position: absolute;
+  padding: 18px;
   top: 0;
   right: 10px;
   bottom: 0;
